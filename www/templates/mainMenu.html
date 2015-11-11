@@ -1,0 +1,25 @@
+<ion-view style="" title="Main Menu">
+    <ion-content class="has-header" padding="true">
+        <form style="" class="list">
+            <ion-toggle style="" toggle-class="toggle-positive">Melayani Duel</ion-toggle>
+            <h1 style="">Nama User</h1>
+            <div style="" class="list card">
+                <div class="item item-divider">Statistik</div>
+                <div class="item item-body">
+                    Win     : {{win}}<br/>
+                    Lose    : {{lose}}<br/>
+                    Draw    : {{draw}}<br/>
+                    
+                    Benar           : {{benar}}<br/>
+                    Salah           : {{salah}}<br/>
+                    Tidak Menjawab  : {{absent}}<br/>
+                </div>
+                <div class="item item-divider">Your ranked {{rank}} with score {{score}}</div>
+            </div>
+        </form>
+        <div style="" class="button-bar">
+            <button style="" class="button button-stable button-block " href="#/tabsController">Latihan</button>
+            <button style="" class="button button-stable button-block ">Cari Lawan</button>
+        </div>
+    </ion-content>
+</ion-view>
